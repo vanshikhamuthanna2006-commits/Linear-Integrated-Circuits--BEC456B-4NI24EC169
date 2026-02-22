@@ -1,2 +1,10 @@
 # Linear-Integrated-Circuits-Lab
-Linear Integrated Circuits Lab (ECE, NIE). A collection of LTSpice simulations, circuit diagrams, and experiment notes documenting my lab work and learning journey in analog circuit design.
+This repository contains all lab files and experiment documentation for the Linear Integrated Circuits (LIC) course.
+
+Student Information
+Name: Vanshikha Muthanna C
+USN: 4NI24EC169
+Department: ECE, Section 'C' (4th Semester)
+Institution: National Institute of Engineering (NIE), Mysuru
+
+To access specific experiment files, please use the Branch dropdown menu. Each experiment is organized into its own dedicated branch for better version control and clarity.Browse the folders for schematics, simulations, and reports.
