@@ -1,0 +1,14 @@
+Aim
+To carry out DC, Transient, and AC analysis of a Common Source amplifier using LTSpice, and to determine the key performance parameters of the circuit.
+
+Components Required
+
+• 	TSMC 180 nm NMOS transistor (CMOSN)
+
+• 	TSMC 180 nm PMOS transistor (CMOSP)
+
+• 	Source resistor
+
+• 	Voltage sources (3 units)
+
+
