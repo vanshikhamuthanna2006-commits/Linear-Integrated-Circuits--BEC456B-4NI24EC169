@@ -1,0 +1,48 @@
+Characteristics and parameters of Op-Amp(Virtual Experiment)
+
+1. Aim
+
+To study and measure the following fundamental characteristics and parameters of the IC-741 Operational Amplifier using the Virtual Labs simulation environment:
+
+Input bias current at the inverting terminal(IB1)
+
+Input bias current at the non-inverting terminal(IB2)
+
+Input offset current(Iio)
+
+Input offset voltage(Vio)
+
+Slew Rate(SR)
+
+An operational amplifier is a direct-coupled high-gain amplifier consisting of differential amplifiers followed by a level translator and a push-pull output stage.
+
+While an ideal op-amp has infinite gain and bandwidth, practical ICs like the μA741 have specific limitations defined by their parameters.
+
+Key Parameter Definitions:
+--Input Offset Voltage (Vio):
+
+The differential DC voltage required between the input terminals to force the output voltage to zero. For a 741C, the maximum value is typically 6mV.
+
+--Input Bias Current (IB): The average of the currents flowing into the inverting (IB1) and non-inverting (IB2) terminals.
+
+Formula:
+
+IB=(IB1+IB2)/2
+
+--Input Offset Current (Iio):
+
+The algebraic difference between the currents entering the two input terminals.Formula: Iio = |IB1 - IB2|
+
+--Slew Rate (SR):
+
+The maximum rate of change of output voltage per unit of time, expressed in V/Us. 
+It determines how fast the op-amp can respond to a rapid change at the input.
+
+Formula: SR = dVo/dt |max
+For IC-741, the typical Slew Rate is 0.5 V/µs.
+
+Pin Configuration (IC-741)Pin 2: Inverting InputPin 3: Non-inverting InputPin 4: $-V_{EE}$ (Negative Power Supply)Pin 6: OutputPin 7: +VCC} (Positive Power Supply)Pins 1 & 5: Offset Null (used to zero out $V_{io}$)
+
+
+
+
